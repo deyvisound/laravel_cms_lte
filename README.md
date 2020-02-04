@@ -1,1 +1,1 @@
-# laravel_cms_lte
+# CMS com Laravel e Layout AdminLTE
