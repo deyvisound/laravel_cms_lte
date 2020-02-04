@@ -30,5 +30,5 @@ php artisan migrate --seed
 
 Acesse: http://localhost:8000/
 
--Login: admin@admin.com
--Senha: admin
+- Login: admin@admin.com
+- Senha: admin
