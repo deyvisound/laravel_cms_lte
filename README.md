@@ -4,12 +4,24 @@
 
 -- A ideia é ter um CMS(Content management system), feito com Laravel que por sua vez irá gerenciar o layout administrativo AdminLTE. 
 
-Instalando: 
+## Instalando: 
 
-1 - Clona o projeto
-2 - cp .env.example .env 
-3 - configura banco de dados no .env 
-4 - php artisan migrate --seed 
-5 - php artisan serve
+1. Clona o projeto: 
+```bash
+git clone https://github.com/deyvisound/laravel_cms_lte.git
+```
+2. Cria .env
+```bash 
+cp .env.example .env 
+```
+3. configura banco de dados no .env 
+4. Executa migrações
+```bash 
+php artisan migrate --seed 
+```
+5. Inicia servidor
+```bash 
+ php artisan serve
+```
 
 Acesse: http://localhost:8000/
