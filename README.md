@@ -10,16 +10,20 @@
 ```bash
 git clone https://github.com/deyvisound/laravel_cms_lte.git
 ```
-2. Cria .env
+2. Baixa as dependências: 
+```bash 
+php composer install 
+```
+2. Cria .env :
 ```bash 
 cp .env.example .env 
 ```
-3. configura banco de dados no .env 
-4. Executa migrações
+3. configura banco de dados no .env
+4. Executa migrações: 
 ```bash 
 php artisan migrate --seed 
 ```
-5. Inicia servidor
+5. Inicia servidor: 
 ```bash 
  php artisan serve
 ```
