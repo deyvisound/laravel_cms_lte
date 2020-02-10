@@ -1,4 +1,5 @@
 # CMS com Laravel e Layout AdminLTE
+Repositório base, laravel com layout AdminLTE
 
 -- Como o template adminLTE é a opção de muitos desenvolvedores, inclusive a minha, no momento de desenvolver um sistema administrativo, resolvi criar este projeto para agilizar a criação deste tipo de sistema. 
 
